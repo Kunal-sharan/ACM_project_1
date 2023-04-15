@@ -64,7 +64,10 @@
 }
 @media (min-width: 200px) and (max-width: 1000px) {
   .icon_taskbar {
+    position: relative;
+    margin-top: 425px;
     flex-direction: column;
+    gap: 10px;
   }
   .icon01 {
     border-bottom: solid 1px #e4e4e7;

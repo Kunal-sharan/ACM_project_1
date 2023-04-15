@@ -176,3 +176,22 @@
   margin-right: 10px;
   margin-left: 10px;
 }
+@media (min-width: 200px) and (max-width: 1000px) {
+  .home_container {
+    flex-direction: column;
+    margin-left: 45px;
+  }
+  .home_heading {
+    font-size: 30px;
+    line-height: 70px;
+  }
+  .home_para {
+    position: relative;
+    margin-top: -15px;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+}
