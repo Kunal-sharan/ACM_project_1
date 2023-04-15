@@ -1,0 +1,178 @@
+.home_container {
+  height: 500px;
+  position: relative;
+  width: 80%;
+  margin-left: 120px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home_div1 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: 500;
+}
+
+.home_heading {
+  margin: 20px;
+  width: 519.61px;
+  height: 263px;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 88px;
+  /* or 110% */
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+  letter-spacing: -3.2px;
+
+  color: #18181b;
+}
+
+.home_para {
+  margin: 20px;
+  width: 526.49px;
+  height: 60px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 180% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.4px;
+
+  color: #18181b;
+}
+
+.get_started {
+  width: 120px;
+  height: 10px;
+  padding-left: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.176px;
+
+  color: #18181b;
+}
+
+.home_store_getstarted {
+  margin: 20px;
+  width: fit-content;
+  background: #c2ff66;
+  border-radius: 6px;
+}
+
+.home_div2 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+}
+
+.home_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects {
+  border-radius: 12px;
+  margin: 20px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.1;
+  border: solid 1px #e4e4e7;
+  padding-top: 20px;
+}
+
+.img_overlap {
+  position: relative;
+}
+
+.over {
+  position: absolute;
+  z-index: 2;
+  left: 53px;
+  top: 17px;
+}
+
+.under {
+  z-index: 1;
+}
+
+.team_marketing {
+  padding-left: 4px;
+  margin: 20px;
+  width: 280px;
+  height: 200px;
+  text-align: left;
+  line-height: 0.5;
+  border: solid 1px #e4e4e7;
+  border-radius: 12px;
+}
+
+.call_container {
+  position: relative;
+  border-radius: 8px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border: solid 1px #e4e4e7;
+  height: 40px;
+}
+
+.call_container > p {
+  position: absolute;
+  left: 80px;
+}
+.phoneicon_container {
+  position: absolute;
+  border-radius: 10px;
+  background: #c2ff66;
+  width: fit-content;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.above {
+  position: absolute;
+  left: 83px;
+  top: 13px;
+}
+
+.home_column {
+  border-radius: 12px;
+  margin: 20px;
+  width: 323.61;
+  height: 150px;
+  border: solid 1px #e4e4e7;
+}
+
+.comment {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cubex {
+  margin-right: 10px;
+  margin-left: 10px;
+}
