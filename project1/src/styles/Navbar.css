@@ -113,6 +113,10 @@
     position: absolute;
     margin-top: 350px;
     margin-left: 50vw;
+    border: solid 1px #ececee;
+    border-bottom: solid 1px #1c1c1c;
+    background-color: #ececee;
+    width: fit-content;
     /* transition: 1s ease-in; */
   }
   .active > .signup_container {
@@ -121,12 +125,14 @@
     flex-direction: column;
     position: relative;
     margin-left: 37vw;
+    margin-right: 33vw;
   }
   .active > .signup_container > p.login {
     border: 1px;
     border-radius: 8px;
     padding: 5px;
     border-width: 30px;
+    width: 100px;
     background-color: black;
     font-size: 14px;
     color: aliceblue;
@@ -136,6 +142,7 @@
     border: 1px;
     padding: 5px;
     border-width: 30px;
+    width: 100px;
     background-color: rgb(95, 95, 95);
     font-size: 14px;
     color: aliceblue;
