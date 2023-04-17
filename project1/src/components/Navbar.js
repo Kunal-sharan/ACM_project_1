@@ -28,11 +28,11 @@ function Navbar() {
 
       <div className={"list_signup " + (showNav && "active")}>
         <div className="list_container">
-          <p>Overview</p>
-          <p>Home</p>
-          <p>About</p>
-          <p>Pricing</p>
-          <p>Pages</p>
+          <p className="option1">Overview</p>
+          <p className="option2">Home</p>
+          <p className="option3">About</p>
+          <p className="option4">Pricing</p>
+          <p className="option5">Pages</p>
           <p className="arrow_down">
             <img src={arrow_down} />
           </p>

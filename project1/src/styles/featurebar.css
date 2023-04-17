@@ -6,10 +6,10 @@
   border-radius: 12px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 35px;
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 80px;
   align-items: center;
 }
 .feature_1 {

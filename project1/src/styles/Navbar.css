@@ -83,6 +83,7 @@
     width: 100vw;
   }
   .hamburger {
+    position: relative;
     display: block;
     margin-right: 10px;
     width: 40px;
@@ -98,6 +99,11 @@
   .list_container {
     flex-direction: column;
   }
+  .list_container > p {
+    border: solid 1px #1c1c1c;
+    padding: 10px;
+    margin: 0;
+  }
   .list_signup {
     display: none;
   }
@@ -107,16 +113,18 @@
   .arrow_down {
     display: none;
   }
+
   .active {
     display: block;
     flex-direction: column;
     position: absolute;
     margin-top: 350px;
-    margin-left: 50vw;
+    margin-left: 70vw;
     border: solid 1px #ececee;
     border-bottom: solid 1px #1c1c1c;
     background-color: #ececee;
-    width: fit-content;
+    min-width: 100px;
+    max-width: 200px;
     /* transition: 1s ease-in; */
   }
   .active > .signup_container {
@@ -124,8 +132,23 @@
     display: block;
     flex-direction: column;
     position: relative;
-    margin-left: 37vw;
+    margin-left: 5vw;
     margin-right: 33vw;
+  }
+  .active > .list_container > p.option1:hover {
+    background-color: antiquewhite;
+  }
+  .active > .list_container > p.option2:hover {
+    background-color: antiquewhite;
+  }
+  .active > .list_container > p.option3:hover {
+    background-color: antiquewhite;
+  }
+  .active > .list_container > p.option4:hover {
+    background-color: antiquewhite;
+  }
+  .active > .list_container > p.option5:hover {
+    background-color: antiquewhite;
   }
   .active > .signup_container > p.login {
     border: 1px;
@@ -137,6 +160,9 @@
     font-size: 14px;
     color: aliceblue;
     text-align: center;
+  }
+  .active > .signup_container > p.login:hover {
+    box-shadow: 2px 2px 2px rgb(127, 125, 125);
   }
   .active > .signup_container > p.register {
     border: 1px;
