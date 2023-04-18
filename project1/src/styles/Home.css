@@ -17,7 +17,7 @@
 
 .home_heading {
   margin: 20px;
-  width: 519.61px;
+  max-width: 519.61px;
   height: 263px;
 
   font-family: "Archivo";
@@ -184,6 +184,8 @@
   .home_heading {
     font-size: 30px;
     line-height: 70px;
+    min-width: 300px;
+    max-width: 400px;
   }
   .home_para {
     position: relative;
@@ -193,5 +195,7 @@
     display: flex;
     text-align: left;
     letter-spacing: 1px;
+    min-width: 300px;
+    max-width: 400px;
   }
 }

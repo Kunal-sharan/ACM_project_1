@@ -76,5 +76,6 @@
   }
   .heading_2 {
     margin-left: 9.5%;
+    min-width: 300px;
   }
 }

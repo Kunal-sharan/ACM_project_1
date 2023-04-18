@@ -85,8 +85,10 @@
   .hamburger {
     position: relative;
     display: block;
-    margin-right: 10px;
-    width: 40px;
+    align-content: end;
+    margin-right: 1%;
+    max-width: 40px;
+    min-width: 30px;
   }
   .logo_container {
     display: block;
